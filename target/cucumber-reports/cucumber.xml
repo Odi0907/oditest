@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="0.104227">
+<testcase classname="Login" name="In order to verify login to facebook" time="0.08461">
+<system-out><![CDATA[Given user navigates to facebook website....................................passed
+When user validates the homepage title......................................passed
+Then user entered "valid" username..........................................passed
+And user entered "valid" password...........................................passed
+And user selected the Age Group.............................................passed
+Then user "should" sucessfully logged in....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login" name="In order to verify login to facebook 2" time="0.005052">
+<system-out><![CDATA[Given user navigates to facebook website....................................passed
+When user validates the homepage title......................................passed
+Then user entered "invalid" username........................................passed
+And user entered "invalid" password.........................................passed
+And user selected the Age Group.............................................passed
+Then user "shouldnot" sucessfully logged in.................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login To Production" name="In order to verify login to facebook" time="0.008948">
+<system-out><![CDATA[Given user navigates to facebook website....................................passed
+When user validates the homepage title......................................passed
+Then user entered "valid" username..........................................passed
+And user entered "valid" password...........................................passed
+And user validates the capcha...............................................passed
+Then user "shouldbe" sucessfully logged in..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login To Production" name="In order to verify login to facebook 2" time="0.005617">
+<system-out><![CDATA[Given user navigates to facebook website....................................passed
+When user validates the homepage title......................................passed
+Then user entered "invalid" username........................................passed
+And user entered "invalid" password.........................................passed
+And user validates the capcha...............................................passed
+Then user "shouldnot" sucessfully logged in.................................passed
+]]></system-out>
+</testcase>
+</testsuite>
